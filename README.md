@@ -4,6 +4,17 @@
 
 **URL**: https://lovable.dev/projects/e09dc322-21bc-42e4-be83-56fd3aa820c8
 
+## 提交规则 / Branch rules
+
+- **`main` 分支受保护**：不允许直接推送（`git push origin main` 会被拒绝）。
+- **变更须通过 Pull Request**：请从功能分支提交 PR，经合并后才会进入 `main`。
+
+推荐流程：
+
+1. 从 `main` 拉出新分支：`git checkout -b your-feature`
+2. 在分支上开发并提交
+3. 在 GitHub 上对该分支发起 Pull Request，合并到 `main`
+
 ## How can I edit this code?
 
 There are several ways of editing your application.
